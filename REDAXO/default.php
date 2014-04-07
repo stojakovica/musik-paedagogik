@@ -15,6 +15,7 @@ REX_TEMPLATE[3]
         <div id="navigationMain">
             <div class="title">
                 <a href="/">Musik-P&auml;dagogik</a>
+                <a href="/" class="subtitle">Maria-Luise Witting</a>
             </div>
 
             <ul>
@@ -27,16 +28,19 @@ REX_TEMPLATE[3]
                 $colorClass = 'gruen';
                 switch($c->getId()) {
                     case 2:
-                        $colorClass = 'gruen';
-                        break;
-                    case 3:
                         $colorClass = 'blau';
                         break;
-                    case 4:
+                    case 3:
                         $colorClass = 'rot';
                         break;
-                    case 5:
+                    case 4:
                         $colorClass = 'gelb';
+                        break;
+                    case 5:
+                        $colorClass = 'rot';
+                        break;
+                    case 6:
+                        $colorClass = 'blau';
                         break;
                 }
                 echo '<li class="'.$class.'"><a href="'.$c->getUrl().'" class="'.$colorClass.'">'.$c->getName().'</a></li>';

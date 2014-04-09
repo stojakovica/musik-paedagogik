@@ -247,3 +247,73 @@ p {
 .einzelbild > div {
     border: 2px solid #fff;
 }
+
+.article {
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+.article .img {
+    float: left;
+}
+
+.article .img img {
+    margin-top: 10px;
+}
+
+.article .content {
+    margin-left: 30px;
+    padding-right: 20px;
+}
+
+#containerContent #content .contentContent .article h2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+#containerContent #content .contentContent .article h2 a {
+    color: #333;
+}
+
+.article .content p {
+    margin: 5px 0;
+}
+
+.article .more {
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+
+.newsliste {
+    margin-top: 20px;
+}
+
+.newsliste .article .content {
+    margin-left: 0;
+}
+
+.newsliste .topPaging {
+    margin-bottom: 10px;
+}
+
+.newsliste .bottomPaging {
+    margin-top: 10px;
+}
+
+.gruen {
+    color: #75ae21;
+}
+
+.rot {
+    color: #cd0e16;
+}
+
+.blau {
+    color: #026ab1;
+}
+
+.gelb {
+    color: #f0b101;
+}
